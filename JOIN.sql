@@ -18,6 +18,7 @@
 -- JOIN sakila.country sc
 -- ON wc.Name = sc.Country
 
+
 # Self JOIN
 -- SELECT e.employee_id, e.first_name as EmployeeName , m.first_name as ManagerName
 -- FROM employees e
@@ -131,6 +132,7 @@
 -- ON P.payment_method = PM.payment_method_id
 
 # Natural JOIN
+#JOINS automaticaly id there are any simmilar column exist
 -- SELECT O.order_id, C.first_name
 -- FROM orders O
 -- natural JOIN customers C
